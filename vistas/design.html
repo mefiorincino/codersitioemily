@@ -16,7 +16,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-                
+        
+        <!--ANIMACIONES AOS CSS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
         <!--MI HOJA DE ESTILOS SIEMPRE A LO ULTIMO-->
         <link rel="stylesheet" href="../estilos/css/styles.css">
     </head>
@@ -39,31 +43,31 @@
         </header>
         <main>
             <section class="hero">
-                <h1 class="hero__titlehome--sec">DESIGN</h1>
+                <h1 class="hero__titlehome--sec" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">DESIGN</h1>
             </section>
             <section class="project">
                 <div class="projectcard">
-                    <img class="projectcard__img" src="../img/site-photo_img20.png" alt="Fiera">
+                    <img class="projectcard__img" data-aos="zoom-in" src="../img/site-photo_img20.png" alt="Fiera">
                     <h2 class="projectcard__titulo">BRAND ID</h2>
                     <h3 class="projectcard__cliente">Fiera Denim</h3>
                 </div>
                 <div class="projectcard">
-                    <img class="projectcard__img" src="../img/site-photo_img22.png" alt="Deating">
+                    <img class="projectcard__img" data-aos="zoom-in" src="../img/site-photo_img22.png" alt="Deating">
                     <h2 class="projectcard__titulo">UX UI</h2>
                     <h3 class="projectcard__cliente">Deating</h3>
                 </div>
                 <div class="projectcard">
-                    <img class="projectcard__img" src="../img/site-photo_img24.png" alt="RevistaOhlala">
+                    <img class="projectcard__img" data-aos="zoom-in" src="../img/site-photo_img24.png" alt="RevistaOhlala">
                     <h2 class="projectcard__titulo">DIGITAL DESIGN</h2>
                     <h3 class="projectcard__cliente">Revista OHLALÁ</h3>
                 </div>
                 <div class="projectcard">
-                    <img class="projectcard__img" src="../img/site-photo_img23.png" alt="47street">
+                    <img class="projectcard__img" data-aos="zoom-in" src="../img/site-photo_img23.png" alt="47street">
                     <h2 class="projectcard__titulo">UX UI</h2>
                     <h3 class="projectcard__cliente">47Street</h3>
                 </div>
                 <div class="projectcard">
-                    <img class="projectcard__img" src="../img/site-photo_img21.png" alt="Deating">
+                    <img class="projectcard__img" data-aos="zoom-in" src="../img/site-photo_img21.png" alt="Deating">
                     <h2 class="projectcard__titulo">APP UX UI</h2>
                     <h3 class="projectcard__cliente">Todomoda</h3>
                 </div>
@@ -77,5 +81,10 @@
                 <img class="footer__element" src="../img/footericon-spotify.png" alt="iconSpotify">
             </div>
         </footer>
+
+        <!--AOS FOTO-CARD-->
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
