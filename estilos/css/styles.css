@@ -299,7 +299,13 @@
 
 /*SEC-CONTACT*/
 
-.hero__description--sec{
+.hero2{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero2__description--sec{
     color: #424242;
     font-size: 0.9rem;
     font-family: 'Lato', sans-serif;
@@ -330,12 +336,12 @@
     font-weight:800;
 }
 
-.hero__form{
+.hero2__form{
     display: flex;
     margin: 1rem;
 }
 
-.hero__namelabel{
+.hero2__namelabel{
     color: #424242;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
@@ -347,13 +353,13 @@
     width: 4rem;
 }
 
-.hero__input{
+.hero2__input{
     margin: 0.7rem;
     padding: 0.2rem;
     width: 15rem;
 }
 
-.hero__boxarea{
+.hero2__boxarea{
     margin: 0.7rem;
     padding: 0.2rem;
     width: 15rem;
@@ -424,59 +430,77 @@
         margin: 0.5rem;
         padding: 0.2rem;
     }
+    
     .hero{
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .boton {
+        font-size: 1rem;
+        margin: 3rem;
+        padding: 0.6rem 0.7rem;
+        margin-top: 13rem;
+    }
+
+    .hero__titlehome {
+        font-size: 2rem;
+        align-items: center;
+        margin: 7rem 1rem;
+        top: 7rem;
+    }
+
+/*    .hero__titlehome {
+        font-size: 1rem;
+        margin: 1rem;
+        top: 7rem;
+        left: 2rem;
+    }*/
+
+    .hero__homeimg{
+    max-width: none;
+    max-height: 70vh;
+    }
+
+    /*MOBILE320-SECCONTACT*/
+
+    .hero2{
         font-size: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        overflow: hidden;
     }
 
-    .boton {
-        font-size: 0.5rem;
-        margin: 3rem;
-        padding: 0.6rem 0.7rem;
-        margin-top: 5rem;
-    }
-
-    .hero__titlehome {
-        font-size: 1rem;
-        margin: 1rem;
-        top: 7rem;
-        left: 2rem;
-    }
-
-    .hero__homeimg{
-    overflow:hidden;
-    }
-
-    /*MOBILE320-SECCONTACT*/
-
-    .hero__description--sec {
+    .hero2__description--sec {
         font-size: 0.8rem;
         letter-spacing: 0.03rem;
         text-align: center;
     }
 
-    .hero__form {
+    .hero2__form {
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 100%;
     }
 
-    .hero__namelabel {
+    .hero2__namelabel {
         text-align: center;
         font-size: 0.9rem;
         font-weight: bold;
     }
 
-    .hero__input {
+    .hero2__input {
         padding: 0.4rem;
         width: 14rem;
     }
 
-    .hero__boxarea {
+    .hero2__boxarea {
         width: 14rem;
     }
 
@@ -560,12 +584,16 @@
     }
 
     /*MOBILE768-SECCONTACT*/
+    .hero2{
+        display: flex;
+        flex-direction: column;
+    }
 
-    .hero__input {
+    .hero2__input {
         width: 22rem;
     }
 
-    .hero__boxarea {
+    .hero2__boxarea {
         width: 22rem;
     }
 
