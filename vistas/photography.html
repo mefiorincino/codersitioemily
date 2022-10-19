@@ -29,25 +29,45 @@
     </head>
     <body>
         <header class="header">
-            <div class="header__containerlogo">
-                <a href="../index.html">
-                <img class="header__logo" src="../img/logo-emily.png" alt="logo-sitio"></a>
-            </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__anchor" href="../vistas/design.html">DESIGN</a></li>
-                    <li class="header__item"><a class="header__anchor" href="#">PHOTO</a></li>
-                    <li class="header__item"><a class="header__anchor" href="../vistas/contact.html">CONTACT</a></li>
-                    <li class="header__item"><a class="header__anchor" href="../vistas/aboutUs.html">ABOUT</a></li>
-                    <li class="header__item"><a class="header__anchor" href="https://www.linkedin.com/in/emiliafiorincino/">LINKEDIN</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a href="../index.html" class="header__containerlogo">
+                    <img class="header__logo" src="../img/logo-emily.png" alt="logo-sitio"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end"" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="header__item">
+                        <a class="header__anchor" href="../vistas/design.html">DESIGN</a>
+                      </li>
+                      <li class="header__item">
+                        <a class="header__anchor" href="#">PHOTO</a>
+                      </li>
+                      <li class="header__item">
+                        <a class="header__anchor" href="../vistas/contact.html">CONTACT</a>
+                      </li>
+                      <li class="header__item">
+                        <a class="header__anchor" href="../vistas/aboutUs.html">ABOUT</a>
+                      </li>
+                      <li class="header__item">
+                        <a class="header__anchor" href="https://www.linkedin.com/in/emiliafiorincino/">LINKEDIN</a>
+                      </li>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
         </header>
         <main>
             <section class="hero">
                 <h1 class="hero__titlehome--sec" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">PHOTO</h1>
             </section>
-
             <section class="container">
                 <div class="row">
                     <img class="col-md-4" style="margin-bottom:30px" src="../img/site-photo_img00.png" alt="lucia"></img>
@@ -58,27 +78,6 @@
                     <img class="col-md-4" style="margin-bottom:30px" src="../img/site-photo_img07.png" alt="street"></img>
                 </div>
             </section>
-
-            <!--<section class="hero__grupofoto">
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img00.png" alt="lucia"></img>
-                </div>
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img03.png" alt="korea"></img>
-                </div>
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img05.png" alt="red"></img>
-                </div>
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img04.png" alt="banco"></img>
-                </div>
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img06.png" alt="bear"></img>
-                </div>
-                <div class="hero__itemfoto">
-                    <img class="hero__foto fade-in" src="../img/site-photo_img07.png" alt="street"></img>
-                </div>
-            </section>-->
         </main>
         <footer id="pie" class="footer">
             <p class="footer__text">See you there</p>
