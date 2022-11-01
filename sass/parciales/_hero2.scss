@@ -1,0 +1,46 @@
+.hero2{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__description--sec{
+        color: #424242;
+        font-size: 0.9rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.05rem;
+        margin: 1rem;
+        padding: 1rem;
+        border: 0.5rem;
+    }
+
+    &__form{
+        display: flex;
+        margin: 1rem;
+    }
+
+    &__namelabel{
+        color: #424242;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0.05rem;
+        margin: 1rem;
+        padding: 0.2rem;
+        border: 0.5rem;
+        width: 4rem;
+    }
+
+    &__input{
+        margin: 0.7rem;
+        padding: 0.2rem;
+        width: 15rem;
+    }
+
+    &__boxarea{
+        margin: 0.7rem;
+        padding: 0.2rem;
+        width: 15rem;
+    }
+}

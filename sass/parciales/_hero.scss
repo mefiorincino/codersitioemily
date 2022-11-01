@@ -1,0 +1,54 @@
+@import "./variables";
+
+.hero {
+    font-size: $tipografia-sizestandar;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &__homeimg{
+        max-width: 100%;
+        width: 1920px;
+    }
+
+    &__titlehome{
+        color: $color-secundario;
+        position:absolute;
+        font-size: $tipografia-sizegrande;
+        font-family: $tipografia-secundaria;
+        font-weight: lighter;
+        margin: 1rem;
+        border: 1rem;
+        top: 16rem;
+        left: 3.12rem;
+    }
+
+    &__titlehome--sec{
+        color: $color-secundario;
+        font-size: $tipografia-sizetitulo;
+        font-family: $tipografia-secundaria;
+        font-weight: 500;
+        margin: 1rem;
+        padding: 1rem;
+        border: 0.5rem;
+    }
+    &__aboutdescription{
+        background-color: $background-secundario;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    &__about-foto{
+        width: 100%;
+        max-height: fit-content;
+    }
+    &__about-text{
+        color: #ffffff;
+        font-size: $tipografia-sizeparrafo;
+        font-family: $tipografia-parrafos;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: $tipografia-espaciadostandar;
+        margin: 12rem 4rem 8rem 6rem;
+    }
+    
+}
+

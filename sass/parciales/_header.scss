@@ -1,0 +1,32 @@
+@import "./variables";
+
+.header{
+    &__containerlogo{
+        margin: 1.4rem;
+        padding: 0.2rem;
+    }
+    &__logo{
+        max-width: 120px;
+    }
+    &__list{
+        display: flex;
+        font-size: $tipografia-sizestandar;
+        font-family: $tipografia-secundaria;
+        font-weight: 700;
+    }
+    &__item{
+        list-style: none;
+        margin: 0.5rem;
+        padding: 1rem;
+        border: 0.5rem;
+    }
+    &__anchor{
+        text-decoration: none;
+        color: rgb(24, 24, 24);
+    }
+    &__anchor:hover{
+        font-family: 'Raleway', sans-serif;
+        font-weight:900;
+        color: black;
+    }
+}

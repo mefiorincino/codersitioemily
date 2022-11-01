@@ -1,0 +1,34 @@
+.project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.projectcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 1rem;
+    border: 0.5rem;
+
+    &__img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+    &__titulo{
+        color: #424242;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        margin: 0.6rem 0rem 0rem 0rem;
+        padding: 0.2rem;
+    }
+    &__cliente{
+        color: #0a0404;
+        font-size: 0.8rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        padding: 0.2rem;
+    }
+}

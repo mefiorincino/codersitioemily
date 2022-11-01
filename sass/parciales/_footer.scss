@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    display: flexbox;
+    max-height: 30vh;
+
+    &__icon{
+        margin: 2rem;
+        padding: 3rem;
+    }
+    &__element{
+        max-width: 30px;
+        margin: 0.8rem;
+    }
+    &__text{
+        color: white;
+        font-size: 1rem;
+        font-family: 'Lato', sans-serif;
+        font-weight:bold;
+        letter-spacing: 0.05rem;
+        margin: 3rem;
+        padding: 0.5rem;
+    }
+}
