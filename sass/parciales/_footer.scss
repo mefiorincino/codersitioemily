@@ -1,9 +1,7 @@
 @import "./variables";
 
 .footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex-row-center;
     justify-content:space-between;
     background-color: black;
     display: flexbox;

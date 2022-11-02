@@ -3,14 +3,11 @@
 .project{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 1rem;
-    margin: 1rem;
+    @include padding-margin1rem;
 }
 
 .projectcard{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    @include flex-column-left;
     padding: 1rem;
     border: 0.5rem;
 

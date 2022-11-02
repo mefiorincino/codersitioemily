@@ -11,9 +11,7 @@
         max-width: 120px;
     }
     &__list{
-        display: flex;
-        font-size: $tipografia-sizestandar;
-        font-family: $tipografia-secundaria;
+        @include flex-row-center;
         font-weight: 700;
     }
     &__item{

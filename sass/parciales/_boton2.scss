@@ -3,8 +3,7 @@
 .boton2{
     color: white;
     font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    @include raleway-bold;
     text-decoration: none;
     background-color: #0a0404;
     border-radius: 0.2rem;

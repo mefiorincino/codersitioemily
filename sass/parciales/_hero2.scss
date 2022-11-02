@@ -8,12 +8,10 @@
     &__description--sec{
         color: #424242;
         font-size: 0.9rem;
-        font-family: $tipografia-primaria;
-        font-weight: 400;
+        @include lato-400;
         line-height: 1.5;
         letter-spacing: 0.05rem;
-        margin: 1rem;
-        padding: 1rem;
+        @include padding-margin1rem;
         border: 0.5rem;
     }
 
@@ -25,8 +23,7 @@
     &__namelabel{
         color: #424242;
         font-size: $tipografia-sizestandar;
-        font-family: $tipografia-primaria;
-        font-weight: 400;
+        @include lato-400;
         letter-spacing: 0.05rem;
         margin: 1rem;
         padding: 0.2rem;
@@ -41,8 +38,6 @@
     }
 
     &__boxarea{
-        margin: 0.7rem;
-        padding: 0.2rem;
-        width: 15rem;
+    @extend .hero2__input;
     }
 }

@@ -27,8 +27,7 @@
         font-size: $tipografia-sizetitulo;
         font-family: $tipografia-secundaria;
         font-weight: 500;
-        margin: 1rem;
-        padding: 1rem;
+        @include padding-margin1rem;
         border: 0.5rem;
     }
     &__aboutdescription{

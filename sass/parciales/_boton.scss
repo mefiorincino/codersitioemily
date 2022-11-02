@@ -4,8 +4,7 @@
     color: white;
     position: absolute;
     font-size: $tipografia-sizestandar;
-    font-family: $tipografia-secundaria;
-    font-weight: bold;
+    @include raleway-bold;
     text-decoration: none;
     background-color: $color-terciario;
     border-radius: 0.2rem;
