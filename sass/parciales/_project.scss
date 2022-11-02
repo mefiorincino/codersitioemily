@@ -1,3 +1,5 @@
+@import "./variables";
+
 .project{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,8 +20,8 @@
     }
     &__titulo{
         color: #424242;
-        font-size: 1rem;
-        font-family: 'Lato', sans-serif;
+        font-size: $tipografia-sizestandar;
+        font-family: $tipografia-primaria;
         font-weight: 400;
         margin: 0.6rem 0rem 0rem 0rem;
         padding: 0.2rem;
@@ -27,7 +29,7 @@
     &__cliente{
         color: #0a0404;
         font-size: 0.8rem;
-        font-family: 'Lato', sans-serif;
+        font-family: $tipografia-primaria;
         font-weight: bold;
         padding: 0.2rem;
     }

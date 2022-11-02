@@ -1,3 +1,5 @@
+@import "./variables";
+
 .hero2{
     font-size: 1rem;
     display: grid;
@@ -6,7 +8,7 @@
     &__description--sec{
         color: #424242;
         font-size: 0.9rem;
-        font-family: 'Lato', sans-serif;
+        font-family: $tipografia-primaria;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.05rem;
@@ -22,8 +24,8 @@
 
     &__namelabel{
         color: #424242;
-        font-size: 1rem;
-        font-family: 'Lato', sans-serif;
+        font-size: $tipografia-sizestandar;
+        font-family: $tipografia-primaria;
         font-weight: 400;
         letter-spacing: 0.05rem;
         margin: 1rem;

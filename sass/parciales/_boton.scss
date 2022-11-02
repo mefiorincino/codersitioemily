@@ -1,11 +1,13 @@
+@import "./variables";
+
 .boton {
     color: white;
     position: absolute;
-    font-size: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-size: $tipografia-sizestandar;
+    font-family: $tipografia-secundaria;
     font-weight: bold;
     text-decoration: none;
-    background-color: #0a0404;
+    background-color: $color-terciario;
     border-radius: 0.2rem;
     margin: 18rem 4.5rem;
     padding: 0.6rem 1rem;
@@ -14,7 +16,7 @@
     &:hover{
         color: white;
         background-color: rgb(153, 127, 255);
-        font-family: 'Raleway', sans-serif;
+        font-family: $tipografia-secundaria;
         font-weight:800;
     }
 }

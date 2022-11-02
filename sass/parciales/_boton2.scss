@@ -1,3 +1,5 @@
+@import "./variables";
+
 .boton2{
     color: white;
     font-size: 1rem;
@@ -12,7 +14,7 @@
 
     &:hover{
         background-color: rgb(153, 127, 255);
-        font-family: 'Raleway', sans-serif;
+        font-family: $tipografia-secundaria;
         font-weight:800;
     }
 }

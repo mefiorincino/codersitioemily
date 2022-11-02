@@ -60,33 +60,30 @@
     transform: translateX(-8px); } }
 
 /*FIN CLASES UTILITARIAS*/
-.header__containerlogo {
-  margin: 1.4rem;
-  padding: 0.2rem; }
-
-.header__logo {
-  max-width: 120px; }
-
-.header__list {
-  display: flex;
-  font-size: 1rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700; }
-
-.header__item {
-  list-style: none;
-  margin: 0.5rem;
-  padding: 1rem;
-  border: 0.5rem; }
-
-.header__anchor {
-  text-decoration: none;
-  color: #181818; }
-
-.header__anchor:hover {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: black; }
+.header {
+  background-color: white; }
+  .header__containerlogo {
+    margin: 1.4rem;
+    padding: 0.2rem; }
+  .header__logo {
+    max-width: 120px; }
+  .header__list {
+    display: flex;
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; }
+  .header__item {
+    list-style: none;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.5rem; }
+  .header__anchor {
+    text-decoration: none;
+    color: #181818; }
+  .header__anchor:hover {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: black; }
 
 .hero {
   font-size: 1rem;
@@ -133,7 +130,7 @@
   color: white;
   position: absolute;
   font-size: 1rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-decoration: none;
   background-color: #0a0404;
@@ -144,7 +141,7 @@
   .boton:hover {
     color: white;
     background-color: #997fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800; }
 
 .project {
@@ -165,14 +162,14 @@
   .projectcard__titulo {
     color: #424242;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     margin: 0.6rem 0rem 0rem 0rem;
     padding: 0.2rem; }
   .projectcard__cliente {
     color: #0a0404;
     font-size: 0.8rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     padding: 0.2rem; }
 
@@ -183,7 +180,7 @@
   .hero2__description--sec {
     color: #424242;
     font-size: 0.9rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.05rem;
@@ -196,7 +193,7 @@
   .hero2__namelabel {
     color: #424242;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     letter-spacing: 0.05rem;
     margin: 1rem;
@@ -225,7 +222,7 @@
   border: 1rem; }
   .boton2:hover {
     background-color: #997fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800; }
 
 .footer {
@@ -245,7 +242,7 @@
   .footer__text {
     color: white;
     font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     letter-spacing: 0.05rem;
     margin: 3rem;
