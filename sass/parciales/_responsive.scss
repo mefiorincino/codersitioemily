@@ -1,2 +1,191 @@
-$vista:mobile;
+/*-----ESTILOS MOBILE-----*/
 
+@media screen and (max-width: 320px) {
+    
+    .header__containerlogo {
+        margin: 0.2rem;
+        padding: 0.5rem;
+    }
+
+    .header__logo{
+        max-width: 90px;
+    }
+
+    .header__list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+
+    .header__item {
+        list-style: none;
+        margin: 0.5rem;
+        padding: 0.2rem;
+    }
+    
+    .hero{
+        font-size: 1rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .boton {
+        font-size: 1rem;
+        margin: 3rem;
+        padding: 0.6rem 0.7rem;
+        margin-top: 13rem;
+    }
+
+    .hero__titlehome {
+        font-size: 2rem;
+        align-items: center;
+        top: 7rem;
+    }
+
+    .hero__homeimg{
+    max-width: none;
+    max-height: 70vh;
+    }
+
+    /*MOBILE320-SECCONTACT*/
+
+    .hero2{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .hero2__description--sec {
+        font-size: 0.8rem;
+        letter-spacing: 0.03rem;
+        text-align: center;
+    }
+
+    .hero2__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .hero2__namelabel {
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .hero2__input {
+        padding: 0.4rem;
+        width: 14rem;
+    }
+
+    .hero2__boxarea {
+        width: 14rem;
+    }
+
+    /*MOBILE320-SECDESIGN*/
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+    }
+
+    /*MOBILE320-SECABOUT*/
+
+    .hero__about-text {
+        font-size: 0.8rem;
+        margin: 3rem;
+    }
+
+    .hero__aboutdescription {
+        background-color: #33323a;
+        grid-template-columns: 1fr;
+    }
+
+    /*MOBILE320-SECFOOTER*/
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__text {
+        font-size: 0.9rem;
+        margin: 2rem 0.3rem 0.3rem;
+        padding: 0.2rem;
+    }
+
+    .footer__icon {
+        margin: 0.4rem;
+        padding: 0.9rem;
+    }
+
+    .footer__element {
+        max-width: 30px;
+        margin: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+
+    .hero{
+        position: relative;
+    }
+
+    .hero__titlehome {
+        font-size: 2.6rem;
+        margin: 1rem;
+        top: 6rem;
+    }
+
+    .boton {
+        font-size: 0.8rem;
+        margin: 12rem 4.5rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    /*MOBILE768-SECCONTACT*/
+
+    .hero2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero2__input {
+        width: 22rem;
+    }
+
+    .hero2__boxarea {
+        width: 22rem;
+    }
+
+    .boton2 {
+        margin: 0.5rem 14.7rem 3rem;
+    }
+
+    /*MOBILE768-SECDESIGN*/
+
+    .projectcard {
+        padding: 0.7rem;
+    }
+
+    .projectcard__img {
+        border-radius: 0.5rem;
+    }
+
+    /*MOBILE768-SECABOUT*/
+
+    .hero__about-text {
+        font-size: 0.8rem;
+        margin: 9rem 4rem 11rem 4rem;
+    }
+
+}
